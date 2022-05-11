@@ -1,7 +1,14 @@
+
+
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend:  {
+      backgroundImage: {
+        'hero-pattern': "url('../../')",
+        
+      },
+    },
   },
   daisyui: {
     themes: [
@@ -14,6 +21,7 @@ module.exports = {
           "base-100": "#ffffff",
         },
       },
+      
       "white",
       "cupcake",
     ],
