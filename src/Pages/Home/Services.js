@@ -41,12 +41,12 @@ const Services = () => {
                 }
             </div>
             <div>
-            <div class="hero min-h-screen px-12 mt-10">
+            <div class="hero min-h-screen sm:px-12 lg:px-12 cmt-10">
   <div class="hero-content flex-col lg:flex-row">
-    <div className='mr-6'>
+    <div className='lg:mr-6 '>
     <img src={treatment} class="max-w-sm rounded-lg shadow-2xl" />
     </div>
-    <div className='ml-6'>
+    <div className='lg:ml-6 max-w-sm'>
       <h1 class="text-5xl font-bold">Exceptional Dental Care, on Your Terms</h1>
       <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
      <PrimaryButton>Get Started</PrimaryButton>
