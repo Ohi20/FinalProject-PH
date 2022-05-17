@@ -6,8 +6,8 @@ import { format } from 'date-fns';
 
 
 
-const AppointmentBanner = () => {
-    const [date, setDate]= useState(new Date());
+const AppointmentBanner = ({date, setDate}) => {
+    
     return (
         <div class="hero min-h-screen ">
   <div class="hero-content flex-col lg:flex-row-reverse">
