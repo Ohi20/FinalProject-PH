@@ -5,7 +5,7 @@ import BookingModal from './BookingModal';
 
 const AvailableAppointments = ({date}) => {
     const [services, setServices] = useState([]);
-    const {treatment, setTreatment} = useState({}); 
+    const [treatment, setTreatment] = useState(null); 
 
     useEffect( ()=> {
         fetch('Services.json')
